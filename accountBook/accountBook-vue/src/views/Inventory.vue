@@ -26,6 +26,7 @@
           </select>
         </th>
 
+        <th>商品名</th>
 
         <!-- カテゴリ -->
         <th>
@@ -46,6 +47,8 @@
         <th>価格</th>
         <th>販売した金額</th>
         <th>仕入価格</th>
+        <th>最新追加数</th>
+        <th>追加日</th>
         <th>新規入庫数</th>
         <th>アクション</th>
       </tr>
@@ -59,6 +62,8 @@
         <td class="border px-3 py-2">{{ item.id }}</td>
         <td class="border px-3 py-2">{{ item.name }}</td>
         <td class="border px-3 py-2">{{ item.category }}</td>
+        <td class="border px-3 py-2">{{ item.quantity }}</td>
+        <td class="border px-3 py-2">{{ item.quantity }}</td>
         <td class="border px-3 py-2">{{ item.quantity }}</td>
         <td class="border px-3 py-2">{{ item.quantity }}</td>
         <td class="border px-3 py-2">{{ item.quantity }}</td>
