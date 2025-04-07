@@ -8,7 +8,9 @@
     background: linear-gradient(135deg, #f6f1f8, #4e80e3);
     font-family: Arial, sans-serif;
 }
-
+.title-container{
+    padding-bottom: 60px;
+}
 .title {
     color: #efebeb;
     margin-bottom: 20px;

@@ -1,6 +1,9 @@
 <template>
   <div class="login-container">
-    <h1 class="title">ログインへようこそ</h1>
+    <div class="title-container">
+      <h1 class="title">ログインへようこそ</h1>
+    </div>
+
     <div class="form-group">
       <input type="text" placeholder="ユーザー名" v-model="username" />
     </div>
